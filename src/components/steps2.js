@@ -14,10 +14,9 @@ const Steps2 = (props) => {
               Discover the Power of Our Products
             </h2>
             <p className="thq-body-large">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat.
+              NutriCheck empowers you to make informed choices about the food you consume.
+              Analyze ingredients, check health impacts, and get personalized recommendations
+              based on allergies and health conditions.
             </p>
             <div className="steps2-actions">
               <button className="thq-button-animated thq-button-filled steps2-button">

@@ -3,6 +3,7 @@ import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import './features24.css'
+import hero1 from '../images/hero1.webp'
 
 const Features24 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
@@ -13,7 +14,7 @@ const Features24 = (props) => {
           {activeTab === 0 && (
             <img
               alt={props.feature1ImgAlt}
-              src={props.feature1ImgSrc}
+              src={hero1}
               className="features24-image1 thq-img-ratio-16-9"
             />
           )}

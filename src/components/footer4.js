@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
-import logo from '../logov1.png';
+import logo from '../images/logov1.png';
 
 import './footer4.css'
 
