@@ -103,7 +103,7 @@ const Home = (props) => {
         }
         action2={
           <Fragment>
-            <span className="home-text113">Submit</span>
+            <span className="home-text113">Login</span>
           </Fragment>
         }
       ></Navbar8>
@@ -768,7 +768,7 @@ const Home = (props) => {
           </Fragment>
         }
       ></Contact10>
-      <Footer4
+      {/* <Footer4
         link5={
           <Fragment>
             <span className="home-text214 thq-body-small">Blog</span>
@@ -809,7 +809,7 @@ const Home = (props) => {
             <span className="home-text221 thq-body-small">Privacy Policy</span>
           </Fragment>
         }
-      ></Footer4>
+      ></Footer4> */}
     </div>
   )
 }

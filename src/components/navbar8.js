@@ -18,7 +18,7 @@ const Navbar8 = (props) => {
         />
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
-            <a href={props.link1Url}>
+            <a href={"/"}>
               {props.link1 ?? (
                 <Fragment>
                   <span className="navbar8-text18 thq-link thq-body-small">
@@ -27,16 +27,14 @@ const Navbar8 = (props) => {
                 </Fragment>
               )}
             </a>
-            <a href={props.link2Url}>
+            <a href={"/upload"}>
               {props.link2 ?? (
                 <Fragment>
-                  <span className="navbar8-text16 thq-link thq-body-small">
-                    #upload
-                  </span>
+                  <span className="navbar8-text16 thq-link thq-body-small">Upload</span>
                 </Fragment>
               )}
             </a>
-            <a href={props.link3Url} target="_blank" rel="noreferrer noopener">
+            <a href={"/"} target="_blank" rel="noreferrer noopener">
               {props.link3 ?? (
                 <Fragment>
                   <span className="navbar8-text24 thq-link thq-body-small">
@@ -126,7 +124,7 @@ const Navbar8 = (props) => {
                   </Fragment>
                 )}
               </a>
-              <a href={props.link2Url}>
+              <a href={"/upload"}>
                 {props.link2 ?? (
                   <Fragment>
                     <span className="navbar8-text16 thq-link thq-body-small">
@@ -265,7 +263,7 @@ const Navbar8 = (props) => {
                         </div>
                       </div>
                     </a>
-                    <a href={props.linkUrlPage4}>
+                    <a href={'/allergies'}>
                       <div className="navbar8-menu-item4">
                         <img
                           alt={props.page4ImageAlt}
@@ -474,8 +472,8 @@ const Navbar8 = (props) => {
 }
 
 Navbar8.defaultProps = {
-  linkUrlPage4: 'https://www.teleporthq.io',
-  link2Url: 'https://www.teleporthq.io',
+  linkUrlPage4: '/allergies',
+  link2Url: '/upload',
   page4Description: undefined,
   page1ImageSrc:
     'https://images.unsplash.com/photo-1612080344529-94d623a1ab00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTIzNDk5OXw&ixlib=rb-4.0.3&q=80&w=1080',
@@ -505,11 +503,11 @@ Navbar8.defaultProps = {
   page2Description: undefined,
   link3: undefined,
   page3: undefined,
-  link1Url: 'https://www.teleporthq.io',
+  link1Url: '/',
   page3Description: undefined,
   page1ImageAlt: 'Home Image',
   action2: undefined,
-  link3Url: 'https://www.teleporthq.io',
+  link3Url: '/',
 }
 
 Navbar8.propTypes = {

@@ -1,0 +1,116 @@
+/* General Page Styling */
+.allergies-page {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f3fdf3, #dff7df); /* Subtle green gradient */
+    color: #333; /* Dark gray for readability */
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    /* border: 2px dashed #41b23e; */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  .header {
+    text-align: center;
+  }
+  .header1{
+    color: #41b23e;
+  }
+  
+  .sub-header {
+    text-align: center;
+    font-size: 1rem;
+    color: #555; /* Subtle gray for secondary text */
+    margin-bottom: 30px;
+  }
+  
+  /* Form Container */
+  .allergy-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  /* Section Styling */
+  .form-section {
+    background-color: #fff; /* White for a clean section */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d3e9d3;
+  }
+  
+  /* Labels */
+  .allergy-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2b8a3e;
+  }
+  
+  /* Inputs and Selects */
+  .allergy-form input[type="text"],
+  .allergy-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  /* File Input Styling */
+  .allergy-form input[type="file"] {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Checkboxes Styling */
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox-group label {
+    background-color: #f9fff6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+  
+  .checkbox-group input {
+    margin-right: 8px;
+  }
+  
+  /* Consent Section */
+  .consent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    background-color: #ff9800; /* Bright orange for action */
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+  }
+  
+  

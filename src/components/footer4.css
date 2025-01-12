@@ -1,6 +1,7 @@
 .footer4-footer7 {
   width: 100%;
   height: auto;
+  padding: var(--dl-space-space-threeunits);
   display: flex;
   overflow: hidden;
   position: relative;
